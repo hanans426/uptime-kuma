@@ -1,0 +1,12 @@
+RuntimeType: Container
+ServiceType: private
+ArtifactSourceType: DockerCompose
+ServiceBuildRegion: ap-southeast-1
+RepoName: hanans426/uptime-kuma
+DockerComposeEnvPath: .env
+RegionId: cn-hangzhou
+CustomParameters: ''
+DockerComposeYamlPath: docker/docker-compose.yml
+Owner: hanans426
+Branch: 1.23.X-npm-update
+Platform: github
